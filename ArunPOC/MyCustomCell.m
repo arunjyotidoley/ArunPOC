@@ -57,14 +57,7 @@
         _cellImage.autoresizingMask=(UIViewAutoresizingFlexibleWidth |
                                      UIViewAutoresizingFlexibleBottomMargin | UIViewAutoresizingFlexibleLeftMargin);
         [self.contentView addSubview:_cellImage];
-        
-       /* CGRect frame = CGRectMake(0.0, 0.0, 25.0, 25.0);
-        _activityIndicator = [[UIActivityIndicatorView alloc]
-                                  initWithFrame:frame];
-        _activityIndicator.activityIndicatorViewStyle=UIActivityIndicatorViewStyleGray;
-        _activityIndicator.center=_cellImage.center;
-        [self addSubview:_activityIndicator];*/
-        
+ 
         CAGradientLayer *cellGrad = [CAGradientLayer layer];
         cellGrad.frame = self.contentView.bounds;
         cellGrad.colors = [NSArray arrayWithObjects:(id)[CELL_GRADIENT_1 CGColor], (id)[CELL_GRADIENT_2 CGColor], nil];

@@ -19,7 +19,11 @@
 
 @interface ViewController ()
 @property (nonatomic, retain) NSMutableDictionary *imagesDownloading;
-
+@property(nonatomic,retain) UITableView *tableView;
+@property(nonatomic,retain) NSDictionary *dataDictionary;
+@property(nonatomic,retain) NSArray *dataArray;
+@property(nonatomic,retain) NSMutableDictionary *imageDictionary;
+@property (nonatomic,retain) UIActivityIndicatorView * activityIndicator;
 @end
 
 @implementation ViewController
