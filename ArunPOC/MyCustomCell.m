@@ -20,7 +20,6 @@
 @synthesize titleLabel=_titleLabel;
 @synthesize descriptionLabel=_descriptionLabel;
 @synthesize cellImage=_cellImage;
-@synthesize activityIndicator=_activityIndicator;
 
 
 #pragma mark -Life Cycle Methods
