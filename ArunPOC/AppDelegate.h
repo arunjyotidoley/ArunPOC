@@ -2,14 +2,15 @@
 //  AppDelegate.h
 //  ArunPOC
 //
-//  Created by engineer on 21/11/14.
+//  Created by engineer on 19/11/14.
 //  Copyright (c) 2014 Arun. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "ViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
-
+@property (nonatomic, retain) UIWindow *window;
+@property(nonatomic,retain) ViewController *viewController;
+@property(nonatomic,retain) UINavigationController *navController;
 @end
